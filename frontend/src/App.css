@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.back-button {
+  position: absolute;
+  left: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.back-text {
+  display: inline;
+}
+
+@media (max-width: 600px) {
+  .back-text {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .back-button {
+    left: 30px;
+  }
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
